@@ -1,0 +1,32 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+    color: white;
+}
+
+.imgMainWrapper{
+    display: flex;
+}
+
+.imgMainWrapper img{
+    height: 65px;
+}
+
+.main{
+    font-size: 49px
+}
+
+.currentWeather {
+    width: 87%;
+    margin: 4px 20px;
+}
+
+.temp{
+    font-size:150px;
+    font-weight: 100;
+    line-height: 130px
+}
+
+

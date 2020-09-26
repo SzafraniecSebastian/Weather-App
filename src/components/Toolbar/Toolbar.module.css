@@ -1,0 +1,29 @@
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+    flex-direction: column
+}
+
+.logo {
+    top: 220;
+    left: 0
+}
+
+.currentCityName{
+    font-size: 29px;
+    margin: 10px 0 0 0;
+    letter-spacing: 0.5px;
+    max-width: 70%;
+    text-align: center;
+}
+
+.currentDay{
+    margin: 2px;
+    font-size: 13px;
+}
+
+.emptyToolbar{
+    height: 65px
+}

@@ -1,0 +1,38 @@
+.forecastDaysContainer{
+    display: flex;
+    justify-content: center
+}
+
+.nextHoursDescription{
+    color: white;
+    width: 93%
+}
+
+.description{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.description p{
+    white-space: nowrap;
+}
+
+.forecastHour{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 17px
+}
+
+.hline { 
+    width:100%; 
+    height:1px; 
+    background: #fff;
+    margin: 0 10px 
+}
+
+.forecastDays{
+    display:flex;
+}
+

@@ -1,0 +1,14 @@
+.SideDrawerToggle{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 2000;
+}
+
+.icon{
+    height: 40px
+}
+
+.icon:hover{
+    cursor: pointer
+}

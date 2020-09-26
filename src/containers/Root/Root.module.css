@@ -1,0 +1,94 @@
+.weatherDataWrapper {
+  position: relative;
+  min-height: 100vh;
+  max-height: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.backgroundClear {
+  background: linear-gradient(
+    180deg,
+    rgba(70, 175, 220, 1) 20%,
+    rgba(115, 199, 234, 1) 60%
+  );
+}
+
+.backgroundClearNight {
+  background: linear-gradient(
+    180deg,
+    rgba(31, 39, 88, 1) 40%,
+    rgba(137, 98, 159, 1) 90%
+  );
+}
+
+.backgroundThunderstorm {
+  background: linear-gradient(
+    180deg,
+    rgba(78, 101, 151, 1) 40%,
+    rgba(197, 172, 166, 1) 90%
+  );
+}
+
+.backgroundCloudy {
+  background: linear-gradient(
+    180deg,
+    rgba(107, 147, 176, 1) 20%,
+    rgba(172, 187, 200, 1) 90%
+  );
+}
+
+.backgroundDrizzle {
+  background: linear-gradient(
+    180deg,
+    rgba(107, 147, 176, 1) 0%,
+    rgba(172, 187, 200, 1) 100%
+  );
+}
+
+.backgroundRain {
+  background: linear-gradient(
+    180deg,
+    rgba(160, 177, 194, 1) 40%,
+    rgba(153, 159, 64, 1) 100%
+  );
+}
+
+.backgroundSnow {
+  background: linear-gradient(
+    180deg,
+    rgba(108, 134, 176, 1) 0%,
+    rgba(224, 225, 229, 1) 100%
+  );
+}
+
+.menu {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.menu a {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.menu li {
+  list-style: none;
+  border-radius: 4px;
+  padding: 4px 10px;
+}
+
+.forecastButtons {
+  margin-top: 27px;
+  width: 100%;
+  z-index: 200;
+  left: 0;
+}
